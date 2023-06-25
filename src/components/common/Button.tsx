@@ -1,5 +1,11 @@
 import React from 'react';
-import {Pressable, PressableProps, StyleSheet, TextStyle} from 'react-native';
+import {
+  Pressable,
+  PressableProps,
+  StyleSheet,
+  TextStyle,
+  ViewStyle,
+} from 'react-native';
 
 import Text, {TextBaseProps} from './Text';
 import {s, vs} from 'react-native-size-matters';
@@ -18,6 +24,7 @@ const Button = (props: ButtonProps) => {
     title,
     buttonType = 'primary',
     textStyle,
+    btnStyles,
     textBaseType,
     textBaseColorType,
     ...pressableProps
@@ -25,13 +32,14 @@ const Button = (props: ButtonProps) => {
 
   const container = [
     styles.baseButton,
+    btnStyles,
     buttonType === 'primary' && styles.primaryButton,
     buttonType === 'outline' && styles.outlineButton,
     buttonType === 'disabled' && styles.disableButton,
   ];
 
   return (
-    <Pressable {...pressableProps} style={container}>
+    <Pressable {...pressableProps} style={container as ViewStyle}>
       <Text
         textBaseType={textBaseType}
         textBaseColorType={textBaseColorType}

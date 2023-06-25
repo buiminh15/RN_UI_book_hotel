@@ -19,6 +19,7 @@ export const textBaseColor = {
   black: {color: COLORS.black} as TextStyle,
   primary: {color: COLORS.primary} as TextStyle,
   gray: {color: COLORS.gray} as TextStyle,
+  lightGray: {color: COLORS.lightGray} as TextStyle,
   red: {color: 'red'} as TextStyle,
 };
 

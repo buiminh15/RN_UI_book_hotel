@@ -9,6 +9,7 @@ const Stack = createNativeStackNavigator<MainStackParamList>();
 const MainStack = () => {
   return (
     <Stack.Navigator
+      initialRouteName="OnBoard"
       screenOptions={{
         headerShown: false,
       }}>

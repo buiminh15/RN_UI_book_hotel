@@ -8,10 +8,18 @@ import {commonStyles} from '../styles/commonStyles';
 import {NearYouItemType} from '../types';
 import ImageC from './common/ImageC';
 import Text from './common/Text';
+import {useNavigation} from '@react-navigation/native';
+import {MainStackParamList} from '../types/navigation';
+import {NativeStackNavigationProp} from '@react-navigation/native-stack';
+
+type NearYouNavigationProp = NativeStackNavigationProp<MainStackParamList>;
 
 const NearYouItem = ({item}: {item: NearYouItemType}) => {
+  const navigation = useNavigation<NearYouNavigationProp>();
   return (
-    <TouchableOpacity style={[commonStyles.hidden]}>
+    <TouchableOpacity
+      style={[commonStyles.hidden]}
+      onPress={() => navigation.navigate('DetailHotel', {item})}>
       <ImageC sizeType="rect" source={images.plant1} />
       <View style={[styles.cardNearYou]}>
         <Text

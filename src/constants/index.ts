@@ -80,6 +80,10 @@ const DATAS = [
     id: 2,
     data: EXPLORE_DATA,
   },
+  {
+    id: 3,
+    data: EXPLORE_DATA,
+  },
 ];
 
 export {theme, COLORS, SIZES, FONTS, EXPLORE_DATA, HOTEL_NEAR_YOU, DATAS};
