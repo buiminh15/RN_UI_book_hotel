@@ -1,6 +1,6 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
-import {OnBoardScreen} from '../screens';
+import {DetailHotelScreen, OnBoardScreen} from '../screens';
 import BottomTabNavigator from './BottomTabNavigator';
 import {MainStackParamList} from '../types/navigation';
 
@@ -14,6 +14,7 @@ const MainStack = () => {
       }}>
       <Stack.Screen name="OnBoard" component={OnBoardScreen} />
       <Stack.Screen name="MainScreen" component={BottomTabNavigator} />
+      <Stack.Screen name="DetailHotel" component={DetailHotelScreen} />
     </Stack.Navigator>
   );
 };

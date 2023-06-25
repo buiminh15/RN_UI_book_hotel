@@ -44,9 +44,21 @@ export const FONTS = {
     fontSize: mvs(SIZES.h1),
     lineHeight: mvs(36),
   },
-  h2: {fontFamily: 'Roboto-Bold', fontSize: mvs(SIZES.h2), lineHeight: mvs(30)},
-  h3: {fontFamily: 'Roboto-Bold', fontSize: mvs(SIZES.h3), lineHeight: mvs(22)},
-  h4: {fontFamily: 'Roboto-Bold', fontSize: mvs(SIZES.h4), lineHeight: mvs(22)},
+  h2: {
+    fontFamily: 'Roboto-Bold',
+    fontSize: mvs(SIZES.h2),
+    lineHeight: mvs(30),
+  },
+  h3: {
+    fontFamily: 'Roboto-Bold',
+    fontSize: mvs(SIZES.h3),
+    lineHeight: mvs(22),
+  },
+  h4: {
+    fontFamily: 'Roboto-Bold',
+    fontSize: mvs(SIZES.h4),
+    lineHeight: mvs(22),
+  },
   body1: {
     fontFamily: 'Roboto-Regular',
     fontSize: mvs(SIZES.body1),

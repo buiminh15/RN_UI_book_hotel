@@ -1,11 +1,16 @@
-import {NativeStackNavigationProp} from '@react-navigation/native-stack';
+import {NearYouItemType} from '.';
 
 export type MainStackParamList = {
   OnBoard: undefined;
   MainScreen: undefined;
+  DetailHotel: {
+    item: NearYouItemType;
+  };
 };
 
-export type OnBoardScreenNavigationProp = NativeStackNavigationProp<
-  MainStackParamList,
-  'MainScreen'
->;
+export type BottomTabNavigatorParamList = {
+  Home: undefined;
+  Booking: undefined;
+  WatchList: undefined;
+  Profile: undefined;
+};

@@ -11,7 +11,7 @@ import {MainStackParamList} from '../types/navigation';
 
 const OnBoardScreen = ({
   navigation,
-}: NativeStackScreenProps<MainStackParamList, 'MainScreen'>) => {
+}: NativeStackScreenProps<MainStackParamList>) => {
   return (
     <SafeAreaView style={[commonStyles.flex1]}>
       <View style={[styles.rotate, commonStyles.gap]}>
