@@ -17,7 +17,7 @@
 ### Demo
 
 <p>
-<img src="/assets/images/banner_bg.jpg" width="300" height="600"/>
+<img src="/assets/display/Screenshot_1687750277.png" width="300" height="600" object/>
 </p>
 <!-- ![Alt text](/assets/display/Screenshot_1687750277.png)
 ![Alt text](/assets/display/Screenshot_1687750288.png)
