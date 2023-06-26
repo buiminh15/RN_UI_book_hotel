@@ -17,10 +17,9 @@
 ### Demo
 
 <p>
-<img src="/assets/display/Screenshot_1687750277.png" width="300" height="600" object/>
+<img src="/assets/display/Screenshot_1687750277.png" width="300" height="600"/>
+<img src="/assets/display/Screenshot_1687750288.png" width="300" height="600"/>
+<img src="/assets/display/Screenshot_1687750297.png" width="300" height="600"/>
+<img src="/assets/display/Screenshot_1687750304.png" width="300" height="600"/>
+<img src="/assets/display/Screenshot_1687750320.png" width="300" height="600"/>
 </p>
-<!-- ![Alt text](/assets/display/Screenshot_1687750277.png)
-![Alt text](/assets/display/Screenshot_1687750288.png)
-![Alt text](/assets/display/Screenshot_1687750297.png)
-![Alt text](/assets/display/Screenshot_1687750304.png)
-![Alt text](/assets/display/Screenshot_1687750320.png) -->
