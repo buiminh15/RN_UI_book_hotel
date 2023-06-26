@@ -1,9 +1,8 @@
-import {NavigatorScreenParams} from '@react-navigation/native';
 import {NearYouItemType} from '.';
 
 export type MainStackParamList = {
   OnBoard: undefined;
-  MainScreen: NavigatorScreenParams<BottomTabNavigatorParamList>;
+  MainScreen: undefined;
   DetailHotel: {
     item: NearYouItemType;
   };

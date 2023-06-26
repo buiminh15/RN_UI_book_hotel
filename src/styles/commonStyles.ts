@@ -18,6 +18,9 @@ export const commonStyles = StyleSheet.create({
   justifyEvenly: {
     justifyContent: 'space-evenly',
   },
+  justifyEnd: {
+    justifyContent: 'flex-end',
+  },
   itemsCenter: {
     alignItems: 'center',
   },
