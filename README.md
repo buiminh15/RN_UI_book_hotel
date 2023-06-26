@@ -14,10 +14,13 @@
 - Windows
 - Android Emulator
 
-### Project
+### Demo
 
-![Alt text](/assets/display/Screenshot_1687750277.png)
+<p>
+<img src="/assets/images/banner_bg.jpg" width="300" height="600"/>
+</p>
+<!-- ![Alt text](/assets/display/Screenshot_1687750277.png)
 ![Alt text](/assets/display/Screenshot_1687750288.png)
 ![Alt text](/assets/display/Screenshot_1687750297.png)
 ![Alt text](/assets/display/Screenshot_1687750304.png)
-![Alt text](/assets/display/Screenshot_1687750320.png)
+![Alt text](/assets/display/Screenshot_1687750320.png) -->
