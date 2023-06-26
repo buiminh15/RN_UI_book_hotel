@@ -8,6 +8,7 @@
 - Typescript
 - React Navigation
 - Animated
+- (react-native-size-matters)[https://github.com/nirsky/react-native-size-matters]
 
 ### OS
 
